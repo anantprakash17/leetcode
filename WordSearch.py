@@ -1,7 +1,6 @@
 from collections import defaultdict
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        idx = 0
         for i in range(len(board)):
             for j in range(len(board[0])):
                 if board[i][j] == word[0]:
