@@ -10,7 +10,7 @@ class Solution:
                         return True
         return False
                     
-    
+    #Similar to DFS, but in all directions possible.
     def recursive_search(self, board, i, j, word, idx, visited):
         if idx == len(word):
             return True
