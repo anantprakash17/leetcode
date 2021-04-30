@@ -1,5 +1,6 @@
 from collections import defaultdict
 class Solution:
+    #recursively search from each letter on the board if it matches the word.
     def exist(self, board: List[List[str]], word: str) -> bool:
         for i in range(len(board)):
             for j in range(len(board[0])):
